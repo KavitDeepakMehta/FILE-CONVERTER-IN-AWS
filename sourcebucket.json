@@ -6,6 +6,6 @@
         "Effect": "Allow",
         "Principal": "*",
         "Action": "s3:*",
-        "Resource": "YOUR_ACTUAL_SOURCE_BUCKET_ARN"
+        "Resource": "YOUR_ACTUAL_SOURCE_BUCKET_ARN/*"
     }]
 }
