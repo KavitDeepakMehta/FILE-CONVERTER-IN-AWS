@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1723897972751",
+    "Statement": [{
+        "Sid": "Stmt1723897966495",
+        "Effect": "Allow",
+        "Principal": {
+            "Service": "s3.amazonaws.com"
+        },
+        "Action": "sqs:SendMessage",
+        "Resource": "arn:aws:sqs:us-east-2:851725375246:MessageQueue"
+    }]
+}
