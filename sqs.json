@@ -8,6 +8,6 @@
             "Service": "s3.amazonaws.com"
         },
         "Action": "sqs:SendMessage",
-        "Resource": "arn:aws:sqs:us-east-2:851725375246:MessageQueue"
+        "Resource": "YOUR_ACTUAL_SQS_QUEUE"
     }]
 }
