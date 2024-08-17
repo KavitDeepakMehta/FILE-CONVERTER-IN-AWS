@@ -6,6 +6,6 @@
         "Effect": "Allow",
         "Principal": "*",
         "Action": "s3:*",
-        "Resource": "arn:aws:s3:::destinashun-bucket-ohio/*"
+        "Resource": "YOUR_ACTUAL_DESTINATION_BUCKET_ARN/*"
     }]
 }
